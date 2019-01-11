@@ -8,7 +8,7 @@ services:
       dockerfile: app.dockerfile
     working_dir: /var/www
     volumes:
-      - C:/Users/jamesle/Documents/projects/docker-testing/:/var/www
+      - .:/var/www
 
   # The Web Server
   web:
